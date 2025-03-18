@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calci.css"> 
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="centre" >CALCULATOR</h1>
+    <div class="container flex flex-col item-center mx-auto m-w-30">
+        <div class="row " >
+            <input class="input row-input " disabled id="myInput" type="text" />
+        </div>
+        <div class="row">
+            <button class="button" value="7" onclick="display('7')" onkeydown="myfunction(event)">7</button>
+            <button class="button" value="8" onclick="display('8')" onkeydown="myfunction(event)">8</button>
+            <button class="button" value="9" onclick="display('9')" onkeydown="myfunction(event)">9</button>
+            <button class="button" value="*" onclick="display('*')" onkeydown="myfunction(event)">X</button>
+        </div>
+        <div class="row">
+            <button class="button" value="4" onclick="display('4')" onkeydown="myfunction(event)">4</button>
+            <button class="button" value="5" onclick="display('5')" onkeydown="myfunction(event)">5</button>
+            <button class="button" value="6" onclick="display('6')" onkeydown="myfunction(event)">6</button>
+            <button class="button" value="-" onclick="display('-')" onkeydown="myfunction(event)">-</button>
+        </div>
+        <div class="row">
+            <button class="button" value="1" onclick="display('1')" onkeydown="myfunction(event)">1</button>
+            <button class="button" value="2" onclick="display('2')" onkeydown="myfunction(event)">2</button>
+            <button class="button" value="3" onclick="display('3')" onkeydown="myfunction(event)">3</button>
+            <button class="button" value="+" onclick="display('+')" onkeydown="myfunction(event)">+</button>
+        </div>
+        <div class="row">
+            <button class="button" value="0" onclick="display('0')" onkeydown="myfunction(event)">0</button>
+            <button class="button" value="." onclick="display('.')" onkeydown="myfunction(event)">.</button>
+            <button class="button" value="reset" onclick="clearText()">AC</button>
+            <button class="button" value="=" onclick="operate()" >=</button>
+        </div>
+    </div>
+   <script src="operate.js"></script> 
+</body>
+</html>

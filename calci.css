@@ -1,0 +1,47 @@
+.centre{
+    text-align: center;
+    font-family: cursive;
+}
+
+.bg-red{
+    background-color:green;
+}
+
+.mx-auto{
+    margin:auto;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border : 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family:cursive
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.row{
+    margin:5px 0;
+}
+
+.row-input{
+    margin: 0px;
+    padding: 5px 7px;
+    border: 2px solid black ;
+    border-radius: 9px;
+    font-family: cursive;
+    font-size: 15px;
+}
